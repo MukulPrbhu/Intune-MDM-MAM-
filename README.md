@@ -2,11 +2,11 @@
 
 This repository showcases my hands-on learning journey through the Udemy Microsoft Intune training course. It focuses on device and application management using Microsoft Intune (Endpoint Manager) — including configuration profiles, compliance enforcement, app deployment, Autopilot provisioning, and security baselines.
 
-# 🧩 Overview
+## 🧩 Overview
 
 These labs were designed to simulate real-world Intune administration scenarios, covering both MDM (Mobile Device Management) and MAM (Mobile Application Management) concepts. I learned how to secure, configure, and monitor devices across Windows, iOS, and Android environments using Microsoft Endpoint Manager Admin Center (endpoint.microsoft.com).
 
-# ⚙️ Key Topics Covered
+## ⚙️ Key Topics Covered
 
 -  Device enrollment and group targeting (dynamic & assigned)
 -  Compliance and Conditional Access policies
@@ -16,7 +16,7 @@ These labs were designed to simulate real-world Intune administration scenarios,
 -  Microsoft 365 app deployment and updates
 -  App protection and restriction policies for managed/unmanaged devices
 
-# 🧪 Completed Labs
+## 🧪 Completed Labs
 
 -  LAB 1: Create an Autopilot Profile for AutopilotManaged group
 -  LAB 2: Add the Help Desk group to the Help Desk Intune Role
@@ -30,16 +30,12 @@ These labs were designed to simulate real-world Intune administration scenarios,
 -  LAB 10: Deploy Microsoft 365 Apps – set open file format and enable Current Channel updates
 -  LAB 11: Create an App Protection Policy for NY iOS devices
 
-# 🧠 Skills Gained
+## 🧠 Skills Gained
 
-Mobile Device Management (MDM) & Mobile Application Management (MAM)
-
-Role-based access control (RBAC) in Intune
-
-Policy deployment and assignment best practices
-
-Conditional Access integration with Azure AD
-
-Device compliance troubleshooting
+-  Mobile Device Management (MDM) & Mobile Application Management (MAM)
+-  Role-based access control (RBAC) in Intune
+-  Policy deployment and assignment best practices
+-  Conditional Access integration with Azure AD
+-  Device compliance troubleshooting
 
 App protection for unmanaged (BYOD) devices
