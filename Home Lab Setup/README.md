@@ -23,3 +23,13 @@ I built a nested Hyper‑V lab on an Azure VM (E4s_v6) to run Windows Server 202
 - Use **Availability Zone 3** in West US and choose `Standard security` when launching the Azure VM to expose CPU SKUs compatible with nested Hyper‑V. E.g., `E4s_v6`.
 - Prefer **Gen‑2 + vTPM + Secure Boot** for supported Windows 11 installs. If host/hypervisor prevents vTPM, use the documented installer bypass (registry or offline SYSTEM hive) for lab/testing only.
 - Avoid the **Default Switch** for long‑running labs — create a dedicated NAT switch with a fixed subnet.
+
+# from OOBE network screen (Shift+F10)
+OOBE\BYPASSNRO
+# from WinPE or installer environment (Shift+F10)
+reg add "HKLM\SYSTEM\Setup\LabConfig" /f
+reg add "HKLM\SYSTEM\Setup\LabConfig" /v BypassTPMCheck /t REG_DWORD /d 1 /f
+reg add "HKLM\SYSTEM\Setup\LabConfig" /v BypassSecureBootCheck /t REG_DWORD /d 1 /f
+reg add "HKLM\SYSTEM\Setup\LabConfig" /v BypassRAMCheck /t REG_DWORD /d 1 /f
+reg add "HKLM\SYSTEM\Setup\LabConfig" /v BypassCPUCheck /t REG_DWORD /d 1 /f
+
