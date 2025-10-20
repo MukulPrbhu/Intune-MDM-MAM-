@@ -28,8 +28,12 @@ I built a nested Hyper‑V lab on an Azure VM (E4s_v6) to run Windows Server 202
 OOBE\BYPASSNRO
 # from WinPE or installer environment (Shift+F10)
 reg add "HKLM\SYSTEM\Setup\LabConfig" /f
+
 reg add "HKLM\SYSTEM\Setup\LabConfig" /v BypassTPMCheck /t REG_DWORD /d 1 /f
+
 reg add "HKLM\SYSTEM\Setup\LabConfig" /v BypassSecureBootCheck /t REG_DWORD /d 1 /f
+
 reg add "HKLM\SYSTEM\Setup\LabConfig" /v BypassRAMCheck /t REG_DWORD /d 1 /f
+
 reg add "HKLM\SYSTEM\Setup\LabConfig" /v BypassCPUCheck /t REG_DWORD /d 1 /f
 
