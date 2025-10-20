@@ -49,4 +49,3 @@ In this lab, we create and deploy a compliance policy in Microsoft Intune to ens
 - Go to **Devices → Compliance policies → Policies → New York – Windows Compliance**.
 - Check **Device status/User status** and **Per-setting status**.
 - Pick a NY device → **Device compliance** blade → verify it’s **Compliant** when firewall/AV/AS are on.
-![LAB 3](lab3.png)
