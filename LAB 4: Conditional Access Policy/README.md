@@ -1,5 +1,7 @@
 # LAB 4: Conditional Access Policy
 
+In this lab, we create a Conditional Access policy in Microsoft Entra to protect Microsoft 365 resources by ensuring that only compliant and secure devices can access them. The policy links directly with Intune compliance checks, enforcing conditions such as requiring the device to be marked as compliant or prompting for multifactor authentication when necessary. By first running the policy in report-only mode, we can safely test its impact on pilot users before fully enforcing it, ensuring a smooth rollout and maintaining access for critical accounts like break-glass administrators.
+
 ## **Step 1 – Create the Policy**
 
 - Navigate: **Entra admin center → Protection → Conditional Access → Policies → New policy**.
