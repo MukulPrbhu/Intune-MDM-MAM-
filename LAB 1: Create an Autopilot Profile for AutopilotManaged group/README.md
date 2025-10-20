@@ -62,3 +62,4 @@ The goal of this lab is to enable **zero/low-touch Windows provisioning** by cre
 
 - Devices boot → contact Intune → match device IDs → apply group rules.
 - Deployment profile configures **OOBE**, joins Azure AD (or hybrid), installs apps, applies policies, and enforces settings.
+![LAB 1](lab1.png)
