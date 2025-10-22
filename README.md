@@ -37,5 +37,4 @@ These labs were designed to simulate real-world Intune administration scenarios,
 -  Policy deployment and assignment best practices
 -  Conditional Access integration with Azure AD
 -  Device compliance troubleshooting
-
-App protection for unmanaged (BYOD) devices
+-  App protection for unmanaged (BYOD) devices
